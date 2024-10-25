@@ -33,7 +33,7 @@ jobs:
         submodules: "recursive"
 
     - name: Setup Node
-      uses: actions/setup-node@v4.0.4
+      uses: actions/setup-node@v4.1.0
     - run: npm install # Required by Semantic Release
 
     - uses: actions/setup-dotnet@v4
